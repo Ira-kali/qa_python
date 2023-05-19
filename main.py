@@ -15,7 +15,7 @@ class BooksCollector:
         if self.books_rating.get(name) and rating in range(1, 11):
             self.books_rating[name] = rating
 
-    # получаем рейтинг книги по ее имени
+    # получаем рейтинг книги по ее имени  test_add_new_book_twice
     def get_book_rating(self, name):
         return self.books_rating.get(name)
 
